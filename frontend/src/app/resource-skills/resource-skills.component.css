@@ -1,0 +1,20 @@
+.full-width {
+    width: 100%;
+  }
+  
+  .skill-input {
+    margin-bottom: 1em;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .resources {
+    margin-top: 1em;
+  }
+  
+  .resource-section {
+    margin-bottom: 2em;
+  }
+  

@@ -1,0 +1,105 @@
+/* mcq.component.css
+
+.mat-card {
+  border-radius: .375rem;
+}
+
+.mat-card-header {
+  background-color: #f8f9fa;
+}
+
+.mat-card-title {
+  font-size: 1.25rem;
+}
+
+.mat-radio-button {
+  margin-bottom: .5rem;
+}
+
+.text-danger {
+  font-size: 1rem;
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+} */
+
+
+/* mcq.component.css */
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Card styling */
+mat-card {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+/* Card header */
+mat-card-header {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Card title */
+mat-card-title {
+  font-size: 1.25rem;
+}
+
+/* List styling */
+ul.list-unstyled {
+  margin: 0;
+  padding: 0;
+}
+
+/* List item styling */
+li.mb-3 {
+  margin-bottom: 16px;
+}
+
+/* Question text */
+p {
+  margin-bottom: 8px;
+}
+
+/* Radio group styling */
+mat-radio-group {
+  margin-top: 8px;
+}
+
+/* Feedback styling */
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Button styling */
+button {
+  margin-top: 16px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Spinner and loading text */
+.d-flex {
+  flex-direction: column;
+}
+
+span.ms-2 {
+  margin-left: 8px;
+}

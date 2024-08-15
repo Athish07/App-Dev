@@ -1,0 +1,49 @@
+/* Ensure FontAwesome icons are correctly sized and aligned */
+.fas {
+  margin-right: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-title,
+.card-subtitle,
+.card-text {
+  display: flex;
+  align-items: center;
+}
+
+.card-title i,
+.card-subtitle i,
+.card-text i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-top: 0.5rem;
+}
+
+.mat-slider {
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import 'ngx-toastr/toastr';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    background-color: #e6edef;
+    margin: 1.25rem 0 1.25rem 0;
+    box-shadow: 0 .25rem .5rem #e6edef;
+
+    .card-head {
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #edf1f7;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .card-body {
+        padding: 1rem 1.5rem; 
+    }
+    
+  
+.custom-toast {
+    background-color: #dc0707; /* Example: Yellow background */
+    color: #047af1; /* Example: Dark text color */
+    border-radius: 8px; /* Example: Rounded corners */
+    box-shadow: 0 2px 5px rgba(220, 18, 18, 0.2); /* Example: Shadow effect */
+    padding: 16px; /* Example: Padding around the toast */
+    font-size: 16px; /* Example: Font size */
+  }
+  
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,32 @@
+/* Style for form control labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for input fields and textareas */
+.form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 0.75rem 1.25rem;
+}
+
+/* Style for validation error messages */
+.text-danger {
+  font-size: 0.875rem;
+}
+
+/* Style for input-group append buttons */
+.input-group-append .btn {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+/* Style for add technology button */
+.btn-primary {
+  border-radius: 0.25rem;
+}
+
+/* Style for remove button (trash bin icon) */
+.btn-outline-danger {
+  border-radius: 0.25rem;
+}

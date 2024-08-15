@@ -1,0 +1,47 @@
+/* src/app/about/about.component.css */
+
+.about-us {
+    padding: 20px;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: #343a40; /* Darker text for better readability */
+  }
+  
+  .about-header p {
+    font-size: 1.25rem;
+    color: #6c757d; /* Lighter gray for subtitle */
+  }
+  
+  .about-content {
+    padding: 0 15px;
+  }
+  
+  .about-content section {
+    margin-bottom: 30px;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    color: #007bff; /* Primary color for headings */
+    border-bottom: 2px solid #007bff; /* Underline for headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px; /* Space between heading and content */
+  }
+  
+  .about-content p {
+    font-size: 1.125rem;
+    color: #495057; /* Slightly lighter gray for paragraph text */
+  }
+  
+  .about-content i {
+    font-size: 1.5rem;
+    color: #007bff; /* Matching icon color with heading */
+  }
+  
