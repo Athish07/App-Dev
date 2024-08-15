@@ -1,0 +1,11 @@
+<div class="app-header" >
+  <app-header></app-header>
+</div>
+<div class="container">
+  <app-sidenav></app-sidenav>
+</div>
+
+ <div class="content pt-5"  [ngClass]="isSidebarVisible ? 'with-sidebar' : 'without-sidebar'">
+  <router-outlet></router-outlet>
+  <app-chatbot></app-chatbot>
+</div>

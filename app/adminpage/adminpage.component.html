@@ -1,0 +1,40 @@
+<div class="container mt-4 mb-4">
+  <h1 class="text-center mb-4">Job Listings</h1>
+
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let job of jobData">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <h5 class="card-title">{{ job.jobTitle }}</h5>
+          
+          <p class="card-text">
+            <i class="fa fa-calendar-alt" aria-hidden="true"></i> Start Date: {{ job.startDate }}
+          </p>
+          <p class="card-text">
+            <i class="fa fa-calendar-check" aria-hidden="true"></i> Apply By: {{ job.applyBy }}
+          </p>
+          <!-- Buttons for edit and delete -->
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-primary" (click)="handleEdit(job.id)">
+              <i class="fa fa-edit" aria-hidden="true"></i> Edit Details
+            </button>
+            <button class="btn" (click)="deleteJob(job.id)">
+              <i class="fa fa-trash" aria-hidden="true"></i> 
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <a [routerLink]="['/jobform']" class="text-decoration-none">
+        <div class="card h-100 border-dashed shadow-sm border-0" style="cursor: pointer;">
+          <div class="card-body text-center">
+            <i class="fa fa-plus-circle fa-3x text-primary" aria-hidden="true"></i>
+            <h6 class="mt-2 text-muted">Add New Job Post</h6>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

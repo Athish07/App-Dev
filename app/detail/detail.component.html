@@ -1,0 +1,54 @@
+<div class="container rental-info-container">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="row justify-content-around">
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
+          *ngFor="let section of infoSections"
+        >
+          <mat-card class="info-card text-center">
+            <mat-card-header class="info-card-header">
+              <mat-card-title>{{ section.title }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>{{ section.description }}</p>
+              <mat-icon class="info-icon" [ngClass]="section.iconClass"></mat-icon>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-4 tt">
+    <h1>Welcome to Your Career Gateway!</h1>
+    <p>Explore endless opportunities with top companies worldwide.</p>
+    <p>
+      Whether you're launching your career or seeking a new direction, we're
+      here to guide you.
+    </p>
+    <p>
+      Browse thousands of listings and take your career to new heights today.
+    </p>
+    <p>Your future starts now – embark on your journey with us!</p>
+  </div>
+
+  <div #statsSection class="stats-section row text-center mt-5">
+    <div class="col-6 col-md-3 stat-item">
+      <h2>{{ jobsPosted.toLocaleString() }}+</h2>
+      <p>Jobs Posted</p>
+    </div>
+    <div class="col-6 col-md-3 stat-item">
+      <h2>{{ employers.toLocaleString() }}+</h2>
+      <p>Employers on Board</p>
+    </div>
+    <div class="col-6 col-md-3 stat-item">
+      <h2>{{ jobSeekers.toLocaleString() }}+</h2>
+      <p>Active Job Seekers</p>
+    </div>
+    <div class="col-6 col-md-3 stat-item">
+      <h2>₹{{ investment }} Cr+</h2>
+      <p>Investment in Careers</p>
+    </div>
+  </div>
+</div>

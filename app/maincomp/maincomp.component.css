@@ -1,0 +1,113 @@
+/* src/app/homepage/homepage.component.css */
+#home {
+    padding: 0;
+    
+  }
+  #home1
+  {
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+  }
+  
+  #heading {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  #heading h1 {
+    font-size: 3rem;
+    color: #343a40;
+  }
+  
+  #heading p {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  #items {
+    margin-top: 30px;
+  }
+  #postjob{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #postjj
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  #postjob, #getjob {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #postjob h4, #getjob h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  #postjob p, #getjob p {
+    color: #495057;
+  }
+  
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  /* Container for the image and overlay text */
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Image Styling */
+.hover-img {
+  width: 50%;
+  height: auto;
+  transition: transform 0.5s ease;
+  border-radius: 10px;
+}
+
+/* Overlay for text on the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Text inside the overlay */
+.overlay-text {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow for better readability */
+}
+
+/* Hover effect */
+.image-container:hover .hover-img {
+  transform: scale(1.05); /* Slightly increase image size on hover */
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
